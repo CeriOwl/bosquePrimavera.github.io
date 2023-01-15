@@ -1,0 +1,16 @@
+:root{
+    --green-obligatory: #198754;
+}
+
+.nav-link:hover {
+    color: var(--green-obligatory);
+}
+
+.carousel-item {
+    height: 700px;
+}
+
+footer {
+    height: 400px;
+    background-color: #056f45;
+}
