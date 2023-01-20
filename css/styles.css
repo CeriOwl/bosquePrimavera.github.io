@@ -6,11 +6,24 @@
     color: var(--green-obligatory);
 }
 
-.carousel-item {
-    height: 700px;
+.carousel-inner {
+    max-height: 700px;
 }
 
 footer {
-    height: 400px;
     background-color: #056f45;
+}
+
+.text-data {
+    color: #EEEEEE;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .carousel-inner {
+        height: 100%;
+    }
+    footer {
+        height: 100%;
+    }
 }
