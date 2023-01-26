@@ -30,6 +30,10 @@ footer {
     color: #cb8b00;
 }
 
+.img-show {
+    width: 30rem;
+}
+
 /*
     CONOCE EL BOSQUE PART
 */
@@ -85,5 +89,8 @@ footer {
     }
     .bg-title-directorie{
         top: 0;
+    }
+    .img-show {
+        width: 18rem;
     }
 }
